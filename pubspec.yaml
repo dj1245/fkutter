@@ -1,0 +1,37 @@
+name: sing_verse_app
+description: A new Flutter project
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.0.7
+  google_sign_in: ^6.2.1
+  flutter_svg: ^2.2.4
+  provider: ^6.1.2
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/banners/
+
+
+
+
+
